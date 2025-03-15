@@ -43,12 +43,33 @@ const App = () => {
         titulo={"Istambul Turquia"}
         descricao={"Ponte iluminada do Bósforo"}
       /> */}
-      <Perfil>
-        <PerfilButton link={"https://github.com/"} titulo={"github"}/>
-        <PerfilButton link={"https://linkedin.com/in/nagila-silva"} titulo={"linkedin"}/>
+      <Perfil 
+            fotoPerfil={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6yoQI4rSNos9fsBk2kOSHfUbmrwyr5MDGnw&s"}
+            titulo={"Foto de Perfil"}
+            nome={"Nagila Patricio"}
+            localizacao={"Eusébio-CE Brasil"}
+            cargo={"FullStack Developer"}
+            >
+        <PerfilButton 
+          link={"https://github.com/"} 
+          titulo={"github"}
+        />
+        <PerfilButton 
+          link={"https://linkedin.com/in/nagila-silva"} 
+          titulo={"linkedin"}
+        />
       </Perfil>
-      <Perfil>
-      <PerfilButton link={"https://google.com"} titulo={"google"}/> 
+      <Perfil
+      fotoPerfil={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj33COEsGDLDATwWkkfAlpbltm3hAshE2phw&s"}
+      titulo={"Foto de Perfil"}
+      nome={"Naná Silva"}
+      localizacao={"Fortaleza-CE Brasil"}
+      cargo={"Backend"}
+      >
+        <PerfilButton 
+          link={"https://google.com"} 
+          titulo={"google"}
+        /> 
       </Perfil>
     </>
   );
