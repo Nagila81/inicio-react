@@ -2,6 +2,7 @@
 // import { CardDefault } from "./components/Card";
 // import { Aluno, Turma } from "./components/Classe";
 
+import Avaliacao from "./components/Avaliacao";
 import Perfil from "./components/Perfil";
 import PerfilButton from "./components/PerfilButton";
 
@@ -43,7 +44,7 @@ const App = () => {
         titulo={"Istambul Turquia"}
         descricao={"Ponte iluminada do Bósforo"}
       /> */}
-      <Perfil 
+      {/* <Perfil 
             fotoPerfil={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6yoQI4rSNos9fsBk2kOSHfUbmrwyr5MDGnw&s"}
             titulo={"Foto de Perfil"}
             nome={"Nagila Patricio"}
@@ -70,7 +71,8 @@ const App = () => {
           link={"https://google.com"} 
           titulo={"google"}
         /> 
-      </Perfil>
+      </Perfil> */}
+      <Avaliacao />
     </>
   );
 }
