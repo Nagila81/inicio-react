@@ -3,6 +3,7 @@
 // import { Aluno, Turma } from "./components/Classe";
 
 import Avaliacao from "./components/Avaliacao";
+import Faq from "./components/Faq";
 import Perfil from "./components/Perfil";
 import PerfilButton from "./components/PerfilButton";
 
@@ -73,6 +74,7 @@ const App = () => {
         /> 
       </Perfil> */}
       <Avaliacao />
+      <Faq />
     </>
   );
 }
