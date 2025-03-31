@@ -3,6 +3,8 @@
 // import { Aluno, Turma } from "./components/Classe";
 
 import Avaliacao from "./components/Avaliacao";
+import BuscaCep from "./components/BuscaCep";
+import FakeStore from "./components/FakeStore";
 import Faq from "./components/Faq";
 import Perfil from "./components/Perfil";
 import PerfilButton from "./components/PerfilButton";
@@ -73,8 +75,10 @@ const App = () => {
           titulo={"google"}
         /> 
       </Perfil> */}
-      <Avaliacao />
-      <Faq />
+      {/* <Avaliacao /> */}
+      {/* <Faq /> */}
+      {/* <BuscaCep /> */}
+      <FakeStore />
     </>
   );
 }
